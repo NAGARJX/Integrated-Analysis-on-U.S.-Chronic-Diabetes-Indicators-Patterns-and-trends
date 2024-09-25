@@ -1,34 +1,77 @@
 # Integrated-Analysis-on-U.S.-Chronic-Diabetes-Indicators-Patterns-and-trends
 
 
-A Comprehensive dataset for predicting Diabetes with Medical & Demographic Data
+This project aims to analyze and visualize the trends and insights related to diabetes. Using Power BI, various metrics and data points are visualized to understand the patterns, risk factors, and demographic details associated with diabetes.
 
-**About Dataset**
+# Introduction
+
+Diabetes is a major health concern affecting millions of people worldwide. This project leverages data visualization techniques to provide insights into diabetes trends, helping stakeholders make informed decisions based on data.
+
+# Data Sources
+
+The data used in this project comes from reliable sources, including:
+
+Diabetes Data Source 1
+These datasets include information such as demographic details, medical history, and diabetes-related metrics.
+
+# Key Metrics
+
+The key metrics analyzed in this project include:
+
+Prevalence of diabetes across different age groups
+Gender-wise distribution of diabetes
+Regional trends in diabetes prevalence
+Risk factors associated with diabetes
+
+# Dashboard Overview
+
+ **Overview Page**
+ 
+Provides a summary of the key metrics related to diabetes prevalence and trends.
+Visualizations include bar charts,map, and donut charts to depict data clearly and concisely.
 
 
-The Diabetes prediction dataset is a collection of medical and demographic data from patients, along with their diabetes status (positive or negative). The data includes features such as age, gender, body mass index (BMI), hypertension, heart disease, smoking history, HbA1c level, and blood glucose level. 
+![image](https://github.com/user-attachments/assets/c17d5743-4ef5-4a46-9f4b-f52c5b7950f0)
 
-This dataset can be used to predict diabetes in patients based on their medical history and demographic information. This can be useful for healthcare professionals in identifying patients who may be at risk of developing diabetes and in developing personalized treatment plans. 
+ **Demographics Page**
 
-Additionally, the dataset can be used by researchers to explore the relationships between various medical and demographic factors and the likelihood of developing diabetes.
+ 
+Focuses on the demographic distribution of diabetes.
+Visualizations include age-wise and disease-wise breakdowns.
 
-**Assessments**
+
+![image](https://github.com/user-attachments/assets/8374769b-0ee3-4cf3-8b41-ec847aeaf3de)
+
+**Risk Factors Page**
 
 
-- Retrieve the Patient_id and ages of all patients.
-- Select all female patients who are older than 40.
-- Calculate the average BMI of patients.
-- List patients in descending order of blood glucose levels.
-- Find patients who have hypertension and diabetes.
-- Determine the number of patients with heart disease.
-- Group patients by smoking history and count how many smokers and non�smokers there are.
-- Retrieve the Patient_ids of patients who have a BMI greater than the average BMI.
-- Find the patient with the highest HbA1c level and the patient with the lowest HbA1clevel.
-- Calculate the age of patients in years (assuming the current date as of now).
-- Rank patients by blood glucose level within each gender group.
-- Update the smoking history of patients who are older than 50 to "Ex-smoker."
-- Insert a new patient into the database with sample data.
-- Delete all patients with heart disease from the database.
-- Find patients who have hypertension but not diabetes using the EXCEPT operator.
-- Define a unique constraint on the "patient_id" column to ensure its values are unique.
-- Create a view that displays the Patient_ids, ages, and BMI of patients.
+Analyzes the various risk factors associated with diabetes.
+Visualizations include bar plots with Average Glucose and BMI to identify correlations.
+
+
+
+![image](https://github.com/user-attachments/assets/c06c6435-0583-4d5d-a20d-24e9a3885f0e)
+
+
+# Results and Insights
+
+
+**Prevalence of Diabetes**
+
+- The dashboard highlights the increasing trend of diabetes over the years.
+- Specific age groups and regions with higher prevalence are identified.
+**Demographic Insights**
+
+  
+- Gender-wise analysis shows a higher prevalence of diabetes among males/females (depending on data).
+- Age-wise distribution indicates higher risk in older age groups.
+
+  
+# Future Work
+
+The following areas are suggested for future enhancement:
+
+- **Incorporating More Data Sources**: Adding more datasets to provide a comprehensive view.
+- **Predictive Analytics**: Implementing machine learning models to predict future trends.
+-**Real-Time Data Updates**: Integrating with real-time data sources for up-to-date insights.
+-**User Feedback Integration**: Collecting and incorporating user feedback to improve the dashboard’s usability and accuracy.
